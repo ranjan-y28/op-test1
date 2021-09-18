@@ -12,6 +12,11 @@ public class DemoApplication {
 	public String mes() {
 		return "sdfdhfh";
 	}
+	@GetMapping("/")
+	public String ms() {
+		return "assdfdgfg";
+	}
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
